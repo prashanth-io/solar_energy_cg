@@ -35,6 +35,12 @@ void circle(GLdouble rad)
 }
 
 
+GLfloat cx1 = -50;
+GLfloat cx2 = -45;
+GLfloat cx3 = -45;
+GLfloat cx4 = -45;
+GLfloat cx5 = -45;
+
 
 
 
@@ -72,13 +78,13 @@ void display0(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(0.0, 0.0, 0.0);
-	bitmap_output(-21, 40, "DAYANAND SAGAR ACADEMY OF TECHNOLOGY AND MANAGMENT", GLUT_BITMAP_TIMES_ROMAN_24);
+	bitmap_output(-21, 40, "PES INSTITUTE OF TECHNOLOGY", GLUT_BITMAP_TIMES_ROMAN_24);
 	bitmap_output(-21, 30, "COMPUTER SCIENCE AND ENGINEERING DEPARTMENT", GLUT_BITMAP_HELVETICA_18);
 	bitmap_output(-21, 20, "COMPUTER GRAPHICS AND VISUALIZATION PROJECT", GLUT_BITMAP_HELVETICA_18);
 	bitmap_output(-15, 0, "SOLAR ENERGY ADVERTISING", GLUT_BITMAP_HELVETICA_18);
 	bitmap_output(-15, -20, "Project By", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-15, -25, " SAI SUMANTH REDDY-1DT18CS048", GLUT_BITMAP_HELVETICA_18);
-	bitmap_output(-15, -30, "LAKSHMI PRASHANTH-1DT18CS055", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-15, -25, " R Lakshmi Puthra Reddy - 4PM18CS067", GLUT_BITMAP_HELVETICA_18);
+	bitmap_output(-15, -30, "Raghavendra Nerralagi - 4PM18CS069", GLUT_BITMAP_HELVETICA_18);
 	//bitmap_output(-15, -35, "Name and USN", GLUT_BITMAP_HELVETICA_18);
 	bitmap_output(-12, 5, "Press ESC to exit", GLUT_BITMAP_HELVETICA_18);
 	bitmap_output(-12, 10, "Press spacebar to start", GLUT_BITMAP_HELVETICA_18);
